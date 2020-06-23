@@ -1,0 +1,31 @@
+//about
+.about {
+    padding-top: 75px;
+    padding-bottom: 75px;
+	background-image: url(/img/about_section_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+.about__heading {
+    margin-bottom: 35px;
+    position: relative;
+
+    &:after {
+        content: "";
+        background-image: url('/img/heading_element.png');
+        display: block;
+        width: 15px;
+        height: 35px;
+        position: absolute;
+        left: 6%;
+        top: -45%;
+    }
+}
+
+.about__text {
+    width: 70%;
+    line-height: 1.5em;
+    letter-spacing: 0.095em;
+}

@@ -1,0 +1,22 @@
+//industries
+
+.industrie__imens {
+    margin: 0 auto;
+}
+
+.industries__heading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+
+    &:after {
+        content: "";
+        background-image: url('/img/heading_element.png');
+        display: block;
+        width: 15px;
+        height: 35px;
+        position: absolute;
+        left: 9.5%;
+        top: -45%;
+    }
+}

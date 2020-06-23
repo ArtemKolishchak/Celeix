@@ -1,0 +1,21 @@
+//locations
+.locations {
+    padding-top: 130px;
+}
+
+.locations__heading {
+    margin-bottom: 75px;
+    position: relative;
+    text-align: center;
+
+    &::after {
+        content: "";
+        background-image: url('/img/heading_element.png');
+        display: block;
+        width: 15px;
+        height: 35px;
+        position: absolute;
+        left: 49%;
+        top: -285%;
+    }
+}    
