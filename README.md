@@ -1,5 +1,5 @@
 # Celeix
-HTMT Website
+HTML Website
 
 ---
 [BEM](https://ru.bem.info/)
